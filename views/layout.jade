@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title ACM Angular App
+    link(rel="stylesheet", href="/stylesheets/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body(ng-app="acmAngularApp")
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand(href='#') ACM Angular App
+    block content
+  script(src="/javascripts/jquery.min.js")
+  script(src="/javascripts/angular.min.js")
+  script(src="/javascripts/bootstrap.min.js")
+  script(src="/javascripts/parse.js")
+  script(src="/javascripts/angular/app.js")
+  script(src="/javascripts/angular/controller.js")
